@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2 (Python 3.12.6 on win32)" generated="2025-01-28T13:56:38.415894" rpa="false" schemaversion="5">
+<suite id="s1" name="Basics" source="d:\Testing\basics.robot">
+<test id="s1-t1" name="Log Messages" line="6">
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-28T13:56:38.493067" level="INFO">Hello, this is my first test!</msg>
+<arg>Hello, this is my first test!</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-01-28T13:56:38.493067" elapsed="0.000000"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-01-28T13:56:38.493067" level="INFO">Robot Framework is awesome.</msg>
+<arg>Robot Framework is awesome.</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-01-28T13:56:38.493067" elapsed="0.000000"/>
+</kw>
+<status status="PASS" start="2025-01-28T13:56:38.493067" elapsed="0.000000"/>
+</test>
+<status status="PASS" start="2025-01-28T13:56:38.419904" elapsed="0.073163"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Basics" id="s1" pass="1" fail="0" skip="0">Basics</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
